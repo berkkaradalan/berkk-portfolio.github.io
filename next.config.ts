@@ -1,10 +1,9 @@
-import { NextConfig } from 'next';
-
-const nextConfig: NextConfig = {
-  output: "export",
+// next.config.ts
+const nextConfig = {
+  output: 'export',
   images: {
-    unoptimized: true
-  }
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
