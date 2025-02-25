@@ -1,10 +1,9 @@
 const nextConfig = {
   output: 'export',
-  distDir: 'out',
   images: {
     unoptimized: true,
   },
-  metadataBase: new URL('https://berkk-portfolio.github.io'),
+  metadataBase: new URL('https://berkkaradalan.github.io'), // 🔴 basePath YOK
 };
 
 export default nextConfig;
